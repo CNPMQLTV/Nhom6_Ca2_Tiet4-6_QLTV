@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\Studio\DoAn_QLTV\Web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2388903689.index
+2118411680.index
+3109797823.index
+3988113848.index
+744742844.index
+4014953008.index

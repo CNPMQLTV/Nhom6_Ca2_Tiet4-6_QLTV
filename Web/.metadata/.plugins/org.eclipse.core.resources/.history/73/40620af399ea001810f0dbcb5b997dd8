@@ -1,0 +1,33 @@
+<%@page import="DAO.sach_API,DTO.docgia"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+ <%
+	sach_API list =(sach_API) session.getAttribute("listSach");
+ 	int id = (Integer)request.getAttribute("id");
+ 	docgia dg  = (docgia) session.getAttribute("docgia");
+ 	String id_dg = dg.getMADG();
+ 	String masach = list.getList().get(id).getMaSach();
+%>
+<div class="media">
+                    <div class="media-left media-middle">
+                          <img class="media-object" src=<%=list.getList().get(id).getImg() %>  height="64" width="64" >
+                        </div>
+                           <div class="media-body">
+                             <h3 class="media-heading"><%=list.getList().get(id).getTenSach() %> </h3> 
+                                  <p><%=list.getList().get(id).getMota() %></p>
+                                    <div class="btn-ground text-center">
+								      <form class="form" role="form" method="post" action="order" accept-charset="UTF-8">
+								         <div class="form-group">
+											<button type="submit" class="btn btn-primary btn-block">Đặt sách <%=id_dg%> <%=masach%> </button>
+											 <input type="hidden" name="madg" value=<%=id_dg%>>
+											 <input type="hidden" name="masach" value=<%=masach%>>
+								        </div>
+								        </form>
+    									  </div>
+      
+                            </div>    
+                        </div>
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/nav_newss"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Tin tức" />
+    <item
+        android:id="@+id/nav_book"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="Sách" />
+
+
+
+</menu>

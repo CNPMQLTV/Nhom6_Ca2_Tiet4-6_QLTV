@@ -1,0 +1,61 @@
+<%@page import="DAO.sach_API"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ 
+<!DOCTYPE html>
+<html lang="en">
+<jsp:include page="header.jsp"></jsp:include>
+<body>
+<jsp:include page="main-navigation.jsp"></jsp:include>
+<%sach_API list =(sach_API) session.getAttribute("listSach");%>
+<a href="#"><i class="sc fa fa-hand-pointer-o" id = "cuon" aria-hidden="true"><span class="
+glyphicon glyphicon-triangle-top" aria-hidden="true"></span></i></a>
+
+<div class="container">
+<jsp:include page="title.jsp"></jsp:include>
+    <div class="col-md-8">       
+        <div class="well">
+            
+            <div class="list-group">
+            <%for(int i = 0 ; i<list.getList().size();i++) {%>
+              <a href="#" class="list-group-item ">
+                    <div class="media col-md-3">
+                        <figure class="pull-left">
+                            <img class="media-object img-rounded img-responsive"  src=<%=list.getList().get(i).getImg() %> alt="placehold.it/350x250" >
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="list-group-item-heading">Tên sách :<%=list.getList().get(i).getTenSach()%> </h4>
+                        <p class="list-group-item-text">Mô tả :<%=list.getList().get(i).getMota()%></p><br>
+                        <p class="list-group-item-text">Số lượng :<%=  list.getList().get(i)%></p><br>
+                    </div>
+                    <div class="col-md-3 text-center" >
+                       
+                        
+                         <form class="form" role="form" method="post" action="order" accept-charset="UTF-8" id="login-nav">
+	                   <div class="form-group">
+	                        <button type="submit"class="btn btn-default btn-lg btn-block">Đặt sách</button>
+	                    </div>                          
+	               </form>
+                    </div>
+              </a>
+              <%} %>
+            
+            
+            </div>
+            </div>
+  
+    </div> <!--end col-md-8-->
+
+</div> <!-- end content-->
+<hr>
+<!--footer start from here-->
+<footer>
+<jsp:include page="footer.jsp"></jsp:include>
+</footer>
+<!--footer start from here-->
+
+
+<script type="text/javascript" src="js/myjs.js"></script>
+</body>
+</html>

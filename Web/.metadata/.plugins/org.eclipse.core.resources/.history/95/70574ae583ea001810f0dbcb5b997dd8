@@ -1,0 +1,62 @@
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#menu a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+
+
+
+(function(){
+$('#cuon').click(function(){
+$('body,html').animate({scrollTop:0},200);
+return false;
+})
+})(jQuery);
+$(window).scroll(function(){
+		if( $(window).scrollTop() == 0 ) {
+			$('#cuon').stop(false,true).fadeOut(100);
+		}else{
+			$('#cuon').stop(false,true).fadeIn(100);
+				}
+});
+
+/*Title scroll*/
+
+function autoScrollDown(){
+  $(".inner").css({top:-$(".outer").outerHeight()}) // jump back
+             .animate({top:0},20000,"linear", autoScrollDown); // and animate
+}
+function autoScrollUp(){
+  $(".inner").css({top:0}) // jump back
+             .animate({top:-$(".outer").outerHeight()},20000,"linear", autoScrollUp); // and animate
+}
+// fix hight of outer:
+$('.outer').css({maxHeight: $('.inner').height()});
+// duplicate content of inner:
+$('.inner').html($('.inner').html() + $('.inner').html());
+autoScrollUp();
+
+var test ='<%=session.getAttribute("mes");%>'
+//alter
+

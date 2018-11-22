@@ -1,0 +1,20 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<jsp:include page="header.jsp"></jsp:include>
+</head>
+<body>
+<div class="col-md-12">
+
+			<jsp:include page="title.jsp"></jsp:include>
+	
+</div>
+<div class="container">
+	<p id="sanphammoi" style="background:#3c9ce7;padding:0px 5px 0px 5px; display: inline-block; margin-left: 40px; color:#ffffff; font-size: 20px;">Sản phẩm mới</p>
+</div>
+
+</body>
+</html>

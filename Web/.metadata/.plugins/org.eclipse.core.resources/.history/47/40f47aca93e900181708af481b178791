@@ -1,0 +1,217 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<jsp:include page="header.jsp"></jsp:include>
+</head>
+<body>
+<div class="col-md-12">
+
+			<jsp:include page="title.jsp"></jsp:include>
+	
+</div>
+
+<div class="container">
+	<div class = "row">
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/iphone7plus-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPhone 7 Plus RED 256GB</strong></span>
+	         		<span style="color:red;"><strong>21.590.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Sang trọng với sắc đỏ </p>
+	         		<p>Chống thấm nước chuẩn IP67<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham1">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/sony.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Sony Xperia XZs</strong></span>
+	         		<span style="color:red;"><strong>14.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Camera 19mp Motion Eye xử lý nhanh gấp 5 lần</p>
+	         		<p>Chống thấm nước chuẩn IP68<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham2">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/samsung.jpg"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Samsung Galaxy S8+</strong></span>
+	         		<span style="color:red;"><strong>20.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Màn hình vô cực không viền cong tràn hai cạnh</p>
+	         		<p>Cải thiện Camera</p>
+	         		<p>Chống thấm nước chuẩn IP68<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham3">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/oppof3.jpg"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Oppo F3</strong></span>
+	         		<span style="color:red;"><strong>7.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Cấu hình vượt trội</p>
+	         		<p>Camera selfie kép</p>
+	         		<p>Thiết kế thời trang<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham4">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/iphone6.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPhone 6 32GB</strong></span>
+	         		<span style="color:red;"><strong>8.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Camera chất lượng khá tốt</p>
+	         		<p>Rớt xuống nước là tèo<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham5">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/macbook.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Apple Macbook Air</strong></span>
+	         		<span style="color:red;"><strong>23.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Cấu hình mạnh giải quyết tốt công việc</p>
+	         		<p>Thời lượng pin khủng <div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham6">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/htc-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>HTC U Play</strong></span>
+	         		<span style="color:red;"><strong>8.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế bề mặt trong suốt</p>
+	         		<p>Thiết kế với mức độ hoàn thiện cao</p>
+	         		<p>Thời lượng pin tốt<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham7">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/ipadmini2-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPad Mini 2 Wifi 32GB</strong></span>
+	         		<span style="color:red;"><strong>6.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế tuyệt đẹp, siêu mỏng, siêu nhẹ</p>
+	         		<p>Chip A7 cho hiệu năng cực kì mạnh mẽ</p>
+	         		<p>Màn hình Retina 7.9 inch sắc nét đến từng chi tiết<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham8">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/macbookpro-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Laptop Apple Macbook Pro</strong></span>
+	         		<span style="color:red;"><strong>30.590.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế tuyệt đẹp, siêu mỏng, siêu nhẹ</p>
+	         		<p>Hiệu năng hoàn hảo</p>
+	         		<p>Thời lượng pin tăng đến 10 tiếng sử dụng<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham9">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+		
+
+	</div><!-- row -->
+</div><!-- container -->
+<hr>
+<!--footer start from here-->
+<footer>
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-col">
+        <div class="logofooter">About us</div>
+        <p><i class="fa fa-map-pin"></i> HUFI, District Le Trong Tan Ho Chi Minh City</p>
+        <p><i class="fa fa-phone"></i> Phone: +84 6666 666 666</p>
+        <p><i class="fa fa-envelope"></i> E-mail : vanduc3997@gmail.com </p>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Career</a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+          <li><a href="#"> Frequently Ask Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">MADE BY</h6>
+        <div class="post">
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive.<span>http://getbootstrap.com/</span></p>
+          <p>jQuery write less, do more.<span>https://jquery.com/</span></p>
+          <p>Javascript<span>https://www.javascript.com/</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+        <ul class="footer-social">
+          <li><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+          <li><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights with x</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/myjs.js"></script>
+  <!-- Modal -->
+
+
+
+
+  <!-- //Modal -->
+</body>
+</html>

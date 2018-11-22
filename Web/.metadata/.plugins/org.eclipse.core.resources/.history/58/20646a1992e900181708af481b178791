@@ -1,0 +1,621 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<head>
+<jsp:include page="header.jsp"></jsp:include>
+</head>
+<body>
+<div class="col-md-12">
+<nav class="mynav navbar" id="menu">
+  <ul>
+    <li><a href="#sanphammoi">HOME</a></li>
+    <li><a href="#sanphammoi">SMARTPHONE</a></li>
+    <li><a href="#sanphammoi">TABLET</a></li>
+    <li><a href="#sanphammoi">LAPTOP</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+            <form class="navbar-form navbar-right" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search this site">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-default">
+                    <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        </form>
+  </ul>
+</nav>
+<span class="target"></span>
+</div>
+<a href="#"><i class="sc fa fa-hand-pointer-o" id = "cuon" aria-hidden="true"><span class="
+glyphicon glyphicon-triangle-top" aria-hidden="true"></span></i></a>
+<div class = "container">
+	
+		<div class = "col-md-8">
+			<div id = "mycarousel" class = "carousel">
+				<ol class = "carousel-indicators">
+					<li data-target = "#mycarousel" data-slide-to = "0" class = "active"></li>
+					<li data-target = "#mycarousel" data-slide-to = "1"></li>
+					<li data-target = "#mycarousel" data-slide-to = "2"></li>
+					<li data-target = "#mycarousel" data-slide-to = "3"></li>
+					<li data-target = "#mycarousel" data-slide-to = "4"></li>
+				</ol>
+				<div class = "carousel-inner">
+					<div class = "item active">
+						<img src = "img/iphone7-index.jpg">
+						<div class = "carousel-caption">
+							<p>iPhone 7 mang trên mình thiết kế quen thuộc từ thời iPhone 6, máy được trang bị bộ nhớ lưu trữ lớn, khả năng chống nước cao cấp, dàn loa stereo cho âm thanh hay và cấu hình cực mạnh.</p>
+						</div>
+					</div>
+					<div class = "item">
+						<img src = "img/sonyxzs-index.jpg">
+						<div class = "carousel-caption">
+							<p>Sony Xperia XZs là smartphone được Sony đầu tư mạnh mẽ về camera với hàng loạt các trang bị cao cấp và sở hữu cho mình một mức giá bán hợp lý với người tiêu dùng.</p>
+						</div>
+					</div>
+					<div class = "item">
+						<img src = "img/samsungs8plus-index.jpg">
+						<div class = "carousel-caption">
+							<p>Samsung Galaxy S8 Plus được thiết kế bóng bẩy và sang trọng hơn, bên cạnh đó viền màn hình với nhiều tùy chỉnh tiện ích, nhiều tính năng cao cấp như chống nước, camera chất lượng cao và chụp đêm rất tốt.</p>
+						</div>
+					</div>
+					<div class = "item">
+						<img src = "img/lumia950xl-index.jpg">
+						<div class = "carousel-caption">
+							<p>Lumia 950 XL là một trong những smartphone cao cấp nhất của Microsoft với cấu hình cao, camera 20 MP ống kính Carl Zeiss kết hợp cùng hệ điều hành Windows 10 Mobile ổn định, mượt mà.</p>
+						</div>
+					</div>
+					<div class = "item">
+						<img src = "img/lgg6-index.jpg">
+						<div class = "carousel-caption">
+							<p>Lột xác hoàn toàn so với dòng G serie, flagship của LG sở hữu thiết kế nguyên khối, được tạo ra từ sự kết hợp tinh tế giữa 2 chất liệu kim loại và thủy tinh cao cấp. Theo đánh giá đây là chiếc điện thoại đẹp nhất của LG.</p>
+						</div>
+					</div>
+				</div>
+				<a class = "carousel-control left" href = "#mycarousel" data-slide = "prev">
+					<span class = "icon-prev"></span>
+				</a>
+				<a class = "carousel-control right" href = "#mycarousel" data-slide = "next">
+					<span class = "icon-next"></span>
+				</a>
+			</div>
+		</div>
+			<jsp:include page="title.jsp"></jsp:include>
+	
+</div>
+<div class="container">
+	<p id="sanphammoi" style="background:#3c9ce7;padding:0px 5px 0px 5px; display: inline-block; margin-left: 40px; color:#ffffff; font-size: 20px;">Sản phẩm mới</p>
+</div>
+<div class="container">
+	<div class = "row">
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/iphone7plus-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPhone 7 Plus RED 256GB</strong></span>
+	         		<span style="color:red;"><strong>21.590.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Sang trọng với sắc đỏ </p>
+	         		<p>Chống thấm nước chuẩn IP67<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham1">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/sony.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Sony Xperia XZs</strong></span>
+	         		<span style="color:red;"><strong>14.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Camera 19mp Motion Eye xử lý nhanh gấp 5 lần</p>
+	         		<p>Chống thấm nước chuẩn IP68<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham2">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/samsung.jpg"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Samsung Galaxy S8+</strong></span>
+	         		<span style="color:red;"><strong>20.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Màn hình vô cực không viền cong tràn hai cạnh</p>
+	         		<p>Cải thiện Camera</p>
+	         		<p>Chống thấm nước chuẩn IP68<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham3">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/oppof3.jpg"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Oppo F3</strong></span>
+	         		<span style="color:red;"><strong>7.490.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Cấu hình vượt trội</p>
+	         		<p>Camera selfie kép</p>
+	         		<p>Thiết kế thời trang<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham4">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/iphone6.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPhone 6 32GB</strong></span>
+	         		<span style="color:red;"><strong>8.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Camera chất lượng khá tốt</p>
+	         		<p>Rớt xuống nước là tèo<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham5">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/macbook.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Apple Macbook Air</strong></span>
+	         		<span style="color:red;"><strong>23.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế nguyên khối cứng cáp</p>
+	         		<p>Cấu hình mạnh giải quyết tốt công việc</p>
+	         		<p>Thời lượng pin khủng <div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham6">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/htc-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>HTC U Play</strong></span>
+	         		<span style="color:red;"><strong>8.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế bề mặt trong suốt</p>
+	         		<p>Thiết kế với mức độ hoàn thiện cao</p>
+	         		<p>Thời lượng pin tốt<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham7">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/ipadmini2-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>iPad Mini 2 Wifi 32GB</strong></span>
+	         		<span style="color:red;"><strong>6.990.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế tuyệt đẹp, siêu mỏng, siêu nhẹ</p>
+	         		<p>Chip A7 cho hiệu năng cực kì mạnh mẽ</p>
+	         		<p>Màn hình Retina 7.9 inch sắc nét đến từng chi tiết<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham8">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+
+		<div class="col-md-4 product-content">
+			<div class="products">
+				<img class="pd-img" src="img/macbookpro-content.png"/>
+ 				<div class="pd-des">
+	         		<span style="color:#4083ef;"><strong>Laptop Apple Macbook Pro</strong></span>
+	         		<span style="color:red;"><strong>30.590.000₫</strong></span><hr class="hr3" style="bottom: 0;">
+	         		<p>Thiết kế tuyệt đẹp, siêu mỏng, siêu nhẹ</p>
+	         		<p>Hiệu năng hoàn hảo</p>
+	         		<p>Thời lượng pin tăng đến 10 tiếng sử dụng<div class="btn-success pull-right" style="display:inline; padding:2.5px;">Trả góp 0%</div></p>
+	         		<div class="btn-danger pull-right" style="display:inline; padding:2.5px;" data-toggle="modal" data-target="#modal-sanpham9">Mua ngay</div>
+ 				</div>			
+			</div>
+		</div>
+		
+
+	</div><!-- row -->
+</div><!-- container -->
+<hr>
+<!--footer start from here-->
+<footer>
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-col">
+        <div class="logofooter">About us</div>
+        <p><i class="fa fa-map-pin"></i> HUFI, District Le Trong Tan Ho Chi Minh City</p>
+        <p><i class="fa fa-phone"></i> Phone: +84 6666 666 666</p>
+        <p><i class="fa fa-envelope"></i> E-mail : vanduc3997@gmail.com </p>
+        
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Career</a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+          <li><a href="#"> Frequently Ask Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">MADE BY</h6>
+        <div class="post">
+          <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive.<span>http://getbootstrap.com/</span></p>
+          <p>jQuery write less, do more.<span>https://jquery.com/</span></p>
+          <p>Javascript<span>https://www.javascript.com/</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+        <ul class="footer-social">
+          <li><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+          <li><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter social-icon twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights with x</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/myjs.js"></script>
+  <!-- Modal -->
+<div class="modal fade" id="modal-sanpham1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      	<div class="modal-content">
+        	<div class="modal-header">
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+          		<h4 class="modal-title">Apple iPhone 7 Plus</h4>
+        	</div>
+        	<div class="modal-body">
+				<div class="container">
+        			<div class="row">
+						<div class="col-sm-4">
+        					<div id="carousel" class="carousel slide" data-ride="carousel">
+            					<div class="carousel-inner">
+                					<div class="item active">
+                    					<img src="img/iphone7-1.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/iphone7-2.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/iphone7-3.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/iphone7-4.png">
+                					</div>
+            					</div>
+        					</div> 
+    						<div class="clearfix">
+        						<div id="thumbcarousel" class="carousel slide" data-interval="false">
+            						<div class="carousel-inner">
+                						<div class="item active">
+                    						<div data-target="#carousel" data-slide-to="0" class="thumb"><img src="img/iphone7-1.png"></div>
+                    						<div data-target="#carousel" data-slide-to="1" class="thumb"><img src="img/iphone7-2.png"></div>
+                    						<div data-target="#carousel" data-slide-to="2" class="thumb"><img src="img/iphone7-3.png"></div>
+                    						<div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img/iphone7-4.png"></div>
+                						</div><!-- /item -->
+            						</div><!-- /carousel-inner -->
+        						</div> <!-- /thumbcarousel -->
+    						</div><!-- /clearfix -->
+						</div> <!-- /col-sm-4 -->					
+            			<div class="col-md-5">
+                			<h2>Apple iPhone 7 Plus</h2>
+                			<h4 class="muted">Sang trọng và cá tính với sắc đỏ</h4>
+                			<p>Màu đỏ là trên chiếc iPhone 7 Plus Red 128GB là màu lần đầu tiên được Apple mang lên những chiếc iPhone của mình. Theo đó thì những chiếc iPhone mới sẽ có mặt lưng được làm từ nhôm nguyên khối, được sơn lên lớp sơn màu đỏ rất nổi bật và bắt mắt.</p>
+                			<hr>
+                			<h3>Giá - <del class="text-error">21.590.000₫</del> 20.099.000₫</h3>
+                			<p class="muted">Đã bao gồm tất cả khoản thuế. Giao hàng tận nhà miễn phí.</p>
+                			<br>
+                			<p><a href="#" class="btn btn-success btn-large">Mua online ngay</a></p>
+            			</div> <!-- /col-sm-5 -->
+        			</div> <!-- /row -->
+        			<div class="row product-info">
+            			<div class="col-md-9">
+                			<ul class="nav nav-tabs">
+                    			<li class="active"><a data-toggle="tab" href="#tab-1-1">Thông số kỹ thuật</a></li>
+                    			<li><a data-toggle="tab" href="#tab-1-2">Tính năng</a></li>
+                			</ul>
+                			<div class="tab-content">
+                    			<div id="tab-1-1" class="tab-pane fade in active" style="position: relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                    			<th>Hãng</th>
+                                    			<td>Apple</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>Hệ điều hành</th>
+                                    			<td>iOs 10</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>CPU</th>
+                                    			<td>Apple A10 Fusion 4 nhân 64-bit</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>RAM</th>
+                                    			<td>3 GB RAM</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div>
+                    			<div id="tab-1-2" class="tab-pane fade" style="position:relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                				<th>Bảo mật nâng cao</th>
+                                    			<td>Mở khóa bằng vân tay</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Tính năng đặc biệt</th>
+                                    			<td>Chống nước, chống bụi, 3D Touch</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Ghi âm</th>
+                                    			<td>Microphone chuyên dụng chống ồn</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Xem phim| nghe nhạc</th>
+                                    			<td>H.265, 3GP, MP4, AVI, WMV| Lossless, Midi, MP3, WAV, WMA</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div> <!-- /id="tab-2" class="tab-pane fade" style="position:relative;" -->
+                			</div> <!-- /tab-content -->
+            			</div> <!-- /col-md-9 -->
+        			</div> <!-- /row product-info -->
+    			</div> <!-- /container -->
+   			</div> <!-- /modal-body -->
+        	<div class="modal-footer">
+          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        	</div> <!-- /modal-footer -->
+      	</div> <!-- /modal-content -->
+    </div> <!-- /modal-dialog modal-lg -->
+</div> <!-- /class="modal fade" id="modal-sanpham1" role="dialog" -->
+
+<div class="modal fade" id="modal-sanpham2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      	<div class="modal-content">
+        	<div class="modal-header">
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+          		<h4 class="modal-title">Sony Xperia XZs</h4>
+        	</div>
+        	<div class="modal-body">
+				<div class="container">
+        			<div class="row">
+						<div class="col-sm-4">
+        					<div id="carousel2" class="carousel slide" data-ride="carousel">
+            					<div class="carousel-inner">
+                					<div class="item active">
+                    					<img src="img/sonyxzs-1.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/sonyxzs-2.png">
+                					</div>
+            					</div>
+        					</div> 
+    						<div class="clearfix">
+        						<div id="thumbcarousel2" class="carousel slide" data-interval="false">
+            						<div class="carousel-inner">
+                						<div class="item active">
+                    						<div data-target="#carousel2" data-slide-to="0" class="thumb"><img src="img/sonyxzs-1.png"></div>
+                    						<div data-target="#carousel2" data-slide-to="1" class="thumb"><img src="img/sonyxzs-2.png"></div>
+                						</div><!-- /item -->
+            						</div><!-- /carousel-inner -->
+        						</div> <!-- /thumbcarousel -->
+    						</div><!-- /clearfix -->
+						</div> <!-- /col-sm-4 -->					
+            			<div class="col-md-5">
+                			<h2>Sony Xperia XZs</h2>
+                			<h4 class="muted">Thiết kế mạnh mẽ, sang trọng</h4>
+                			<p>Xperia XZs là phiên bản nâng cấp cấu hình và camera của chiếc Xperia XZ thu hút được rất nhiều sự quan tâm của người dùng vào năm ngoái. Vì vậy, Xperia XZs và Xperia XZ sở hữu rất nhiều điểm tương đồng về thiết kế. Cảm biến vân tay được đặt ở cạnh phải, tích hợp vào nút nguồn. Cuối cùng, Xperia XZs duy trì khả năng chống nước với chuẩn IP68.</p>
+                			<hr>
+                			<h3>Giá - <del class="text-error">14.490.000₫</del> 13.990.000₫</h3>
+                			<p class="muted">Đã bao gồm tất cả khoản thuế. Giao hàng tận nhà miễn phí.</p>
+                			<br>
+                			<p><a href="#" class="btn btn-success btn-large">Mua online ngay</a></p>
+            			</div> <!-- /col-sm-5 -->
+        			</div> <!-- /row -->
+        			<div class="row product-info">
+            			<div class="col-md-9">
+                			<ul class="nav nav-tabs">
+                    			<li class="active"><a data-toggle="tab" href="#tab-2-1">Thông số kỹ thuật</a></li>
+                    			<li><a data-toggle="tab" href="#tab-2-2">Tính năng</a></li>
+                			</ul>
+                			<div class="tab-content">
+                    			<div id="tab-2-1" class="tab-pane fade in active" style="position: relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                    			<th>Hãng</th>
+                                    			<td>Sony</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>Hệ điều hành</th>
+                                    			<td>Android 7.0</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>CPU</th>
+                                    			<td>Snapdragon 820 4 nhân 64-bit</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>RAM</th>
+                                    			<td>4 GB RAM</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div>
+                    			<div id="tab-2-2" class="tab-pane fade" style="position:relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                				<th>Bảo mật nâng cao</th>
+                                    			<td>Mở khóa bằng vân tay, Mở khóa bằng khuôn mặt</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Tính năng đặc biệt</th>
+                                    			<td>Mặt kính 2.5D, Chống nước, chống bụi, 3D Touch</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Ghi âm</th>
+                                    			<td>Microphone chuyên dụng chống ồn</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Xem phim| nghe nhạc</th>
+                                    			<td>H.265, 3GP, MP4, AVI, WMV| Lossless, Midi, MP3, WAV, WMA</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div> <!-- /id="tab-2" class="tab-pane fade" style="position:relative;" -->
+                			</div> <!-- /tab-content -->
+            			</div> <!-- /col-md-9 -->
+        			</div> <!-- /row product-info -->
+    			</div> <!-- /container -->
+   			</div> <!-- /modal-body -->
+        	<div class="modal-footer">
+          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        	</div> <!-- /modal-footer -->
+      	</div> <!-- /modal-content -->
+    </div> <!-- /modal-dialog modal-lg -->
+</div> <!-- /class="modal fade" id="modal-sanpham2" role="dialog" -->
+
+<div class="modal fade" id="modal-sanpham3" role="dialog">
+    <div class="modal-dialog modal-lg">
+      	<div class="modal-content">
+        	<div class="modal-header">
+          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+          		<h4 class="modal-title">Samsung Galaxy S8 Plus</h4>
+        	</div>
+        	<div class="modal-body">
+				<div class="container">
+        			<div class="row">
+						<div class="col-sm-4">
+        					<div id="carousel3" class="carousel slide" data-ride="carousel">
+            					<div class="carousel-inner">
+                					<div class="item active">
+                    					<img src="img/samsungs8plus-1.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/samsungs8plus-2.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/samsungs8plus-3.png">
+                					</div>
+                					<div class="item">
+                    					<img src="img/samsungs8plus-4.png">
+                					</div>                					               					
+            					</div>
+        					</div> 
+    						<div class="clearfix">
+        						<div id="thumbcarousel3" class="carousel slide" data-interval="false">
+            						<div class="carousel-inner">
+                						<div class="item active">
+                    						<div data-target="#carousel3" data-slide-to="0" class="thumb"><img src="img/samsungs8plus-1.png"></div>
+                    						<div data-target="#carousel3" data-slide-to="1" class="thumb"><img src="img/samsungs8plus-2.png"></div>
+                    						<div data-target="#carousel3" data-slide-to="2" class="thumb"><img src="img/samsungs8plus-3.png"></div>
+                    						<div data-target="#carousel3" data-slide-to="3" class="thumb"><img src="img/samsungs8plus-4.png"></div>
+                						</div><!-- /item -->
+            						</div><!-- /carousel-inner -->
+        						</div> <!-- /thumbcarousel -->
+    						</div><!-- /clearfix -->
+						</div> <!-- /col-sm-4 -->					
+            			<div class="col-md-5">
+                			<h2>Samsung Galaxy S8 Plus</h2>
+                			<h4 class="muted">Màn hình vô cực, trải nghiệm cực đã</h4>
+                			<p>Galaxy S8 và S8 Plus hiện đang là chuẩn mực smartphone về thiết kế trong tương lai. Sau nhiều ngày được sử dụng, mình xin chia sẻ những cảm nhận chi tiết nhất về chiếc Galaxy S8 Plus - thiết bị đang có doanh số đặt hàng khủng nhất hiện tại.</p>
+                			<hr>
+                			<h3>Giá - <del class="text-error">20.490.000₫</del> 19.990.000₫</h3>
+                			<p class="muted">Đã bao gồm tất cả khoản thuế. Giao hàng tận nhà miễn phí.</p>
+                			<br>
+                			<p><a href="#" class="btn btn-success btn-large">Mua online ngay</a></p>
+            			</div> <!-- /col-sm-5 -->
+        			</div> <!-- /row -->
+        			<div class="row product-info">
+            			<div class="col-md-9">
+                			<ul class="nav nav-tabs">
+                    			<li class="active"><a data-toggle="tab" href="#tab-3-1">Thông số kỹ thuật</a></li>
+                    			<li><a data-toggle="tab" href="#tab-3-2">Tính năng</a></li>
+                			</ul>
+                			<div class="tab-content">
+                    			<div id="tab-3-1" class="tab-pane fade in active" style="position: relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                    			<th>Hãng</th>
+                                    			<td>Samsung</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>Hệ điều hành</th>
+                                    			<td>Android 7.0</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>CPU</th>
+                                    			<td>Exynos 8895 8 nhân 64-bit</td>
+                                			</tr>
+                                			<tr>
+                                    			<th>RAM</th>
+                                    			<td>4 GB RAM</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div>
+                    			<div id="tab-3-2" class="tab-pane fade" style="position:relative;">
+                        			<table class="table table-striped">
+                            			<tbody>
+                                			<tr>
+                                				<th>Bảo mật nâng cao</th>
+                                    			<td>Mở khóa bằng vân tay, Quét mống mắt</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Tính năng đặc biệt</th>
+                                    			<td>Sạc pin nhanh, Chống nước, chống bụi, 3D Touch</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Ghi âm</th>
+                                    			<td>Microphone chuyên dụng chống ồn</td>
+                                			</tr>
+                                			<tr>
+                                				<th>Xem phim| nghe nhạc</th>
+                                    			<td>H.265, 3GP, MP4, AVI, WMV| Lossless, Midi, MP3, WAV, WMA</td>
+                                			</tr>
+                            			</tbody>
+                        			</table>
+                    			</div> <!-- /id="tab-2" class="tab-pane fade" style="position:relative;" -->
+                			</div> <!-- /tab-content -->
+            			</div> <!-- /col-md-9 -->
+        			</div> <!-- /row product-info -->
+    			</div> <!-- /container -->
+   			</div> <!-- /modal-body -->
+        	<div class="modal-footer">
+          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        	</div> <!-- /modal-footer -->
+      	</div> <!-- /modal-content -->
+    </div> <!-- /modal-dialog modal-lg -->
+</div> <!-- /class="modal fade" id="modal-sanpham3" role="dialog" -->
+
+  <!-- //Modal -->
+</body>

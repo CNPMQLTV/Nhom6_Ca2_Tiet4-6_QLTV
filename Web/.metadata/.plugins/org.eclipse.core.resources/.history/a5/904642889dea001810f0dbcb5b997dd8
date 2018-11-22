@@ -1,0 +1,10 @@
+package DTO;
+
+public class baiviet {
+	MABAIVIET	MANV	TIEUDE	NOIDUNG	HINHANH
+	String mabaiviet;
+	String manv;
+	String tieude;
+	String noidung;
+	String hinhanh;
+}
